@@ -1,0 +1,226 @@
+[06:39:35] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[06:39:35] [Server thread/INFO]: Loading properties
+[06:39:36] [Server thread/INFO]: Default game type: SURVIVAL
+[06:39:36] [Server thread/INFO]: This server is running Paper version git-Paper-1620 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[06:39:36] [Server thread/INFO]: Debug logging is disabled
+[06:39:36] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[06:39:36] [Server thread/INFO]: Using 4 threads for Netty based IO
+[06:39:36] [Server thread/INFO]: Generating keypair
+[06:39:36] [Server thread/INFO]: Starting Minecraft server on 127.0.0.1:25566
+[06:39:36] [Server thread/INFO]: Using default channel type
+[06:39:36] [Server thread/ERROR]: Could not load 'plugins/ViaRewind-4.0.5.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: ViaVersion
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:218) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.loadPlugins(CraftServer.java:318) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:222) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+[06:39:36] [Server thread/ERROR]: Could not load 'plugins/ViaRewind-Legacy-Support-1.5.2.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: ViaRewind
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:218) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.loadPlugins(CraftServer.java:318) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:222) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+[06:39:36] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[06:39:36] [Server thread/ERROR]: Could not load 'plugins/ViaBackwards-5.2.1.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: ViaVersion
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:218) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.loadPlugins(CraftServer.java:318) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:222) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+[06:39:36] [Server thread/INFO]: [nLogin] Loading nLogin v10.4.21
+[06:39:36] [Server thread/INFO]: [Essentials] Loading Essentials v2.21.0-dev+180-fe27182
+[06:39:36] [Server thread/INFO]: [BungeeGuard] Loading BungeeGuard v1.4.5
+[06:39:36] [Server thread/INFO]: [EssentialsAntiBuild] Loading EssentialsAntiBuild v2.20.1
+[06:39:36] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[06:39:36] [Server thread/INFO]: [nLogin] Enabling nLogin v10.4.21
+[06:39:37] [Server thread/INFO]: [nLogin] Successful plugin core start (took 0.35s)
+[06:39:37] [Server thread/INFO]:           __             _       
+[06:39:37] [Server thread/INFO]:   _ __   / /  ___   __ _(_)_ __  
+[06:39:37] [Server thread/INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[06:39:37] [Server thread/INFO]:  | | | / /__| (_) | (_| | | | | |
+[06:39:37] [Server thread/INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
+[06:39:37] [Server thread/INFO]:                   |___/            
+[06:39:37] [Server thread/INFO]:  By: www.nickuc.com - V 10.4.21
+[06:39:37] [Server thread/INFO]:  
+[06:39:37] [Server thread/INFO]: [BungeeGuard] Enabling BungeeGuard v1.4.5
+[06:39:37] [Server thread/INFO]: [BungeeGuard] Using Paper's PlayerHandshakeEvent to listen for connections.
+[06:39:37] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[06:39:37] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[06:39:37] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[06:39:37] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[06:39:37] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[06:39:37] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[06:39:37] [Server thread/INFO]: Preparing level "world"
+[06:39:37] [Server thread/INFO]: -------- World Settings For [world] --------
+[06:39:37] [Server thread/INFO]: Mob Spawn Range: 4
+[06:39:37] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[06:39:37] [Server thread/INFO]: Cane Growth Modifier: 100%
+[06:39:37] [Server thread/INFO]: Melon Growth Modifier: 100%
+[06:39:37] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[06:39:37] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[06:39:37] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[06:39:37] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[06:39:37] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[06:39:37] [Server thread/INFO]: Vine Growth Modifier: 100%
+[06:39:37] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[06:39:37] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[06:39:37] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[06:39:37] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[06:39:37] [Server thread/INFO]: Random Lighting Updates: false
+[06:39:37] [Server thread/INFO]: Structure Info Saving: true
+[06:39:37] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[06:39:37] [Server thread/INFO]: Max TNT Explosions: 100
+[06:39:37] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[06:39:37] [Server thread/INFO]: View Distance: 10
+[06:39:37] [Server thread/INFO]: Item Despawn Rate: 6000
+[06:39:37] [Server thread/INFO]: Item Merge Radius: 2.5
+[06:39:37] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[06:39:37] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[06:39:37] [Server thread/INFO]: Experience Merge Radius: 3.0
+[06:39:37] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[06:39:37] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[06:39:37] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[06:39:37] [Server thread/INFO]: Mob Spawn Range: 4
+[06:39:37] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[06:39:37] [Server thread/INFO]: Cane Growth Modifier: 100%
+[06:39:37] [Server thread/INFO]: Melon Growth Modifier: 100%
+[06:39:37] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[06:39:37] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[06:39:37] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[06:39:37] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[06:39:37] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[06:39:37] [Server thread/INFO]: Vine Growth Modifier: 100%
+[06:39:37] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[06:39:37] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[06:39:37] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[06:39:37] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[06:39:37] [Server thread/INFO]: Random Lighting Updates: false
+[06:39:37] [Server thread/INFO]: Structure Info Saving: true
+[06:39:37] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[06:39:37] [Server thread/INFO]: Max TNT Explosions: 100
+[06:39:37] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[06:39:37] [Server thread/INFO]: View Distance: 10
+[06:39:37] [Server thread/INFO]: Item Despawn Rate: 6000
+[06:39:37] [Server thread/INFO]: Item Merge Radius: 2.5
+[06:39:37] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[06:39:37] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[06:39:37] [Server thread/INFO]: Experience Merge Radius: 3.0
+[06:39:37] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[06:39:37] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[06:39:37] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[06:39:37] [Server thread/INFO]: Mob Spawn Range: 4
+[06:39:37] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[06:39:37] [Server thread/INFO]: Cane Growth Modifier: 100%
+[06:39:37] [Server thread/INFO]: Melon Growth Modifier: 100%
+[06:39:37] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[06:39:37] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[06:39:37] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[06:39:37] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[06:39:37] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[06:39:37] [Server thread/INFO]: Vine Growth Modifier: 100%
+[06:39:37] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[06:39:37] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[06:39:37] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[06:39:37] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[06:39:37] [Server thread/INFO]: Random Lighting Updates: false
+[06:39:37] [Server thread/INFO]: Structure Info Saving: true
+[06:39:37] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[06:39:37] [Server thread/INFO]: Max TNT Explosions: 100
+[06:39:37] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[06:39:37] [Server thread/INFO]: View Distance: 10
+[06:39:37] [Server thread/INFO]: Item Despawn Rate: 6000
+[06:39:37] [Server thread/INFO]: Item Merge Radius: 2.5
+[06:39:37] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[06:39:37] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[06:39:37] [Server thread/INFO]: Experience Merge Radius: 3.0
+[06:39:37] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[06:39:37] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[06:39:37] [Server thread/INFO]: Preparing start region for level 0 (Seed: 6516079796998083608)
+[06:39:38] [Server thread/INFO]: Preparing start region for level 1 (Seed: 6516079796998083608)
+[06:39:38] [Server thread/INFO]: Preparing start region for level 2 (Seed: 6516079796998083608)
+[06:39:38] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+180-fe27182
+[06:39:39] [Server thread/WARN]: [Essentials] Version mismatch! Please update EssentialsAntiBuild to the same version.
+[06:39:39] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[06:39:39] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[06:39:39] [Server thread/INFO]: [Essentials] Starting Essentials ban format conversion
+[06:39:39] [Server thread/INFO]: [Essentials] Attempting to migrate ignore list to UUIDs
+[06:39:39] [Server thread/INFO]: [Essentials] Attempting to migrate legacy userdata keys to Configurate
+[06:39:39] [Server thread/INFO]: [Essentials] No provider found for MaterialTagProvider, but it is nullable
+[06:39:39] [Server thread/INFO]: [Essentials] Selected Legacy Damage Event Provider as the provider for DamageEventProvider
+[06:39:39] [Server thread/INFO]: [Essentials] No provider found for SignDataProvider, but it is nullable
+[06:39:39] [Server thread/INFO]: [Essentials] No provider found for SerializationProvider, but it is nullable
+[06:39:39] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[06:39:39] [Server thread/INFO]: [Essentials] Selected 1.9-1.12.2 Spawn Egg Provider as the provider for SpawnEggProvider
+[06:39:39] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[06:39:39] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
+[06:39:39] [Server thread/INFO]: [Essentials] Selected Reflection Persistent Data Container Provider as the provider for PersistentDataProvider
+[06:39:39] [Server thread/INFO]: [Essentials] No provider found for ContainerProvider, but it is nullable
+[06:39:39] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[06:39:39] [Server thread/INFO]: [Essentials] Selected Legacy Banner Meta Provider as the provider for BannerDataProvider
+[06:39:39] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[06:39:39] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[06:39:39] [Server thread/INFO]: [Essentials] Selected 1.9-1.20.4 Potion Meta Provider as the provider for PotionMetaProvider
+[06:39:39] [Server thread/INFO]: [Essentials] Selected Reflection Server State Provider as the provider for ServerStateProvider
+[06:39:39] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[06:39:39] [Server thread/INFO]: [Essentials] No provider found for TickCountProvider, but it is nullable
+[06:39:39] [Server thread/INFO]: [Essentials] No provider found for BiomeKeyProvider, but it is nullable
+[06:39:39] [Server thread/INFO]: [Essentials] Selected Legacy InventoryView Abstract Class ABI Provider as the provider for InventoryViewProvider
+[06:39:39] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[06:39:39] [Server thread/INFO]: [Essentials] Selected Fixed Height World Info Provider as the provider for WorldInfoProvider
+[06:39:39] [Server thread/INFO]: [Essentials] Loaded 853 items from items.csv.
+[06:39:39] [Server thread/INFO]: [Essentials] Using locale en
+[06:39:39] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[06:39:39] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[06:39:39] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[06:39:39] [Server thread/INFO]: [EssentialsAntiBuild] Enabling EssentialsAntiBuild v2.20.1
+[06:39:39] [Server thread/ERROR]: Error occurred while enabling EssentialsAntiBuild v2.20.1 (Is it up to date?)
+java.lang.NoSuchMethodError: 'java.lang.String com.earth2me.essentials.I18n.tl(java.lang.String, java.lang.Object[])'
+	at com.earth2me.essentials.antibuild.EssentialsConnect.<init>(EssentialsConnect.java:20) ~[?:?]
+	at com.earth2me.essentials.antibuild.EssentialsAntiBuild.onEnable(EssentialsAntiBuild.java:32) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:316) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:405) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:395) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:344) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:442) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:403) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:341) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:289) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+[06:39:39] [Server thread/INFO]: [EssentialsAntiBuild] Disabling EssentialsAntiBuild v2.20.1
+[06:39:39] [Server thread/INFO]: Done (2.202s)! For help, type "help" or "?"
+[06:39:39] [Server thread/INFO]: Timings Reset
+[06:39:39] [Craft Scheduler Thread - 0/INFO]: [Essentials] Fetching version information...
+[06:39:39] [Craft Scheduler Thread - 1/WARN]: java.net.UnknownHostException: webapi.essentialsx.net
+[06:39:39] [Craft Scheduler Thread - 1/WARN]: 	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:572)
+[06:39:39] [Craft Scheduler Thread - 1/WARN]: 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+[06:39:39] [Craft Scheduler Thread - 1/WARN]: 	at java.base/java.net.Socket.connect(Socket.java:633)
+[06:39:39] [Craft Scheduler Thread - 1/WARN]: 	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304)
+[06:39:39] [Craft Scheduler Thread - 1/WARN]: 	at java.base/sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:174)
+[06:39:39] [Craft Scheduler Thread - 1/WARN]: 	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:183)
+[06:39:39] [Craft Scheduler Thread - 1/WARN]: 	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:533)
+[06:39:39] [Craft Scheduler Thread - 1/WARN]: 	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:638)
+[06:39:39] [Craft Scheduler Thread - 1/WARN]: 	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:266)
+[06:39:39] [Craft Scheduler Thread - 1/WARN]: 	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:380)
+[06:39:39] [Craft Scheduler Thread - 1/WARN]: 	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193)
+[06:39:39] [Craft Scheduler Thread - 1/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1257)
+[06:39:39] [Craft Scheduler Thread - 1/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1143)
+[06:39:39] [Craft Scheduler Thread - 1/WARN]: 	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179)
+[06:39:39] [Craft Scheduler Thread - 1/WARN]: 	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(HttpsURLConnectionImpl.java:142)
+[06:39:39] [Craft Scheduler Thread - 1/WARN]: 	at com.earth2me.essentials.updatecheck.UpdateChecker.tryRequestWithFallback(UpdateChecker.java:159)
+[06:39:39] [Craft Scheduler Thread - 1/WARN]: 	at com.earth2me.essentials.updatecheck.UpdateChecker.fetchDistance(UpdateChecker.java:192)
+[06:39:39] [Craft Scheduler Thread - 1/WARN]: 	at com.earth2me.essentials.updatecheck.UpdateChecker.lambda$fetchLatestDev$0(UpdateChecker.java:80)
+[06:39:39] [Craft Scheduler Thread - 1/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:64)
+[06:39:39] [Craft Scheduler Thread - 1/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:52)
+[06:39:39] [Craft Scheduler Thread - 1/WARN]: 	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+[06:39:39] [Craft Scheduler Thread - 1/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+[06:39:39] [Craft Scheduler Thread - 1/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[06:39:39] [Craft Scheduler Thread - 1/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[06:39:39] [Craft Scheduler Thread - 0/WARN]: [Essentials] Error while fetching EssentialsX version information! Build information: id:'fe27182' branch:'2.x' isDev:true.
+[06:41:37] [Craft Scheduler Thread - 11/INFO]: [nLogin] [ERROR] Could not connect to the api - internet unavailable or HTTPS port closed (this likely is a hosting error!)
+[06:43:37] [Craft Scheduler Thread - 21/INFO]: [nLogin] [ERROR] Could not download new version (code = 0, content length = 0)
+[06:45:37] [Craft Scheduler Thread - 31/INFO]: [nLogin] [ERROR] Could not download new version (code = 0, content length = 0)

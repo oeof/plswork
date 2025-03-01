@@ -1,0 +1,82 @@
+[06:38:19] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 3.4.0-SNAPSHOT (git-0afe0612-b475)...
+[06:38:19] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
+[06:38:19] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use epoll channels, libdeflate (Linux aarch64) compression, OpenSSL 3.x.x (Linux aarch64) ciphers
+[06:38:19] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
+[06:38:19] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
+[06:38:20] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[06:38:20] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
+[06:38:20] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>      EAGLERCRAFTXVELOCITY WARNING:
+[06:38:20] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
+[06:38:20] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  This plugin wasn't tested to be 'working'
+[06:38:20] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  with ANY version of Velocity (and forks)
+[06:38:20] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  apart from the versions listed below:
+[06:38:20] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
+[06:38:20] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  - Velocity: 3.4.0-SNAPSHOT:6995f415:b464
+[06:38:20] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  - https://api.papermc.io/v2/projects/velocity/versions/3.4.0-SNAPSHOT/builds/464/downloads/velocity-3.4.0-SNAPSHOT-464.jar
+[06:38:20] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
+[06:38:20] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  This is not a Bukkit/Spigot plugin!
+[06:38:20] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
+[06:38:20] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  Use "-Deaglerxvelocity.stfu=true" to hide
+[06:38:20] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
+[06:38:20] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[06:38:20] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin eaglerxvelocity 1.1.7 by lax1dude, ayunami2000
+[06:38:20] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin nlogin 10.4.21 by NickUC
+[06:38:20] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin skinsrestorer 15.5.3 by knat, AlexProgrammerDE, Blackfire62, McLive
+[06:38:20] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 4 plugins
+[06:38:20] [EaglercraftXVelocity - Task Executor #0/WARN] [eaglerxvelocity]: This plugin is still in development, certain features may not be functional!
+[06:38:20] [EaglercraftXVelocity - Task Executor #0/WARN] [eaglerxvelocity]: Not recommended for public servers yet, please check for updates
+[06:38:20] [EaglercraftXVelocity - Task Executor #0/ERROR] [eaglerxvelocity]: Online mode is set to false! Authentication system has been disabled
+[06:38:20] [Netty epoll Boss #0/INFO] [eaglerxvelocity]: Eaglercraft is listening on: /0.0.0.0:8081
+[06:38:20] [EaglercraftXVelocity - Task Executor #0/INFO] [eaglerxvelocity]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+[06:38:20] [EaglercraftXVelocity - Task Executor #0/INFO] [eaglerxvelocity]: Voice chat disabled, add "allow_voice: true" to your listeners to enable
+[06:38:20] [EaglerXVelocity: Update Service Tasks/ERROR] [eaglerxvelocity]: Failed to download certificate: https://eaglercraft.com/backup.cert
+[06:38:20] [EaglerXVelocity: Update Service Tasks/ERROR] [eaglerxvelocity]: Reason: java.net.UnknownHostException: eaglercraft.com
+[06:38:20] [EaglerXVelocity: Update Service Tasks/ERROR] [eaglerxvelocity]: Failed to download certificate: https://deev.is/eagler/backup.cert
+[06:38:20] [EaglerXVelocity: Update Service Tasks/ERROR] [eaglerxvelocity]: Reason: java.net.UnknownHostException: deev.is
+[06:38:20] [EaglerXVelocity: Update Service Tasks/WARN] [eaglerxvelocity]: Deleting stale certificate: $dl.ac3aaed1273ced06ef766ab055337fbf29dc3347.cert
+[06:38:20] [EaglercraftXVelocity - Task Executor #0/INFO] [nlogin]: Successful plugin core start (took 0.07s)
+[06:38:20] [EaglercraftXVelocity - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:           __             _       
+[06:38:20] [EaglercraftXVelocity - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   _ __   / /  ___   __ _(_)_ __  
+[06:38:20] [EaglercraftXVelocity - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[06:38:20] [EaglercraftXVelocity - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  | | | / /__| (_) | (_| | | | | |
+[06:38:20] [EaglercraftXVelocity - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  |_| |_\____/\___/ \__, |_|_| |_|
+[06:38:20] [EaglercraftXVelocity - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:                   |___/            
+[06:38:20] [EaglercraftXVelocity - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  By: www.nickuc.com - V 10.4.21
+[06:38:20] [EaglercraftXVelocity - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  
+[06:38:21] [EaglercraftXVelocity - Task Executor #0/WARN] [skinsrestorer]: You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[06:38:22] [EaglercraftXVelocity - Task Executor #0/WARN] [skinsrestorer]: Please update your Java runtime to at least Java 21 (your version is 17).
+[06:38:22] [EaglercraftXVelocity - Task Executor #0/WARN] [skinsrestorer]: At some point in the future, SkinsRestorer will no longer be compatible with this version of Java.
+[06:38:22] [SkinsRestorer - Task Executor #0/WARN] [skinsrestorer]: Failed to get release info from api.github.com. 
+ If this message is repeated a lot, please see https://skinsrestorer.net/firewall
+[06:38:22] [Netty epoll Boss #1/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /[0:0:0:0:0:0:0:0]:25565
+[06:38:22] [SkinsRestorer - Task Executor #1/INFO] [skinsrestorer]: [Critical] ------------------[SkinsRestorer is OFFLINE] -------------------------
+[06:38:22] [SkinsRestorer - Task Executor #1/INFO] [skinsrestorer]: [Critical] Plugin currently can't fetch new skins due to blocked connection!
+[06:38:22] [SkinsRestorer - Task Executor #1/INFO] [skinsrestorer]: [Critical] See https://skinsrestorer.net/firewall for steps to resolve your issue!
+[06:38:22] [SkinsRestorer - Task Executor #1/INFO] [skinsrestorer]: [Critical] ----------------------------------------------------------------------
+[06:38:22] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (3.38s)!
+[06:38:26] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
+[06:38:26] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  Thank you so much for choosing nLogin! <3
+[06:38:26] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
+[06:38:26] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  For your safety, please read the message below:
+[06:38:26] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   Never download nLogin from unknown sources.
+[06:38:26] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   A modified version may contain malicious software.
+[06:38:26] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
+[06:38:26] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  Trusted sources:
+[06:38:26] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   www.nickuc.com
+[06:38:26] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   www.github.com/nickuc
+[06:38:26] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   OpeNLogin installer (from Spigot or GitHub)
+[06:38:26] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
+[06:38:26] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  Official support channels:
+[06:38:26] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   Discord group: www.nickuc.com/discord
+[06:38:26] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   Documentation: docs.nickuc.com/nlogin/
+[06:38:26] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   Email: support@nickuc.com
+[06:38:26] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   YouTube: youtube.com/nickuc
+[06:38:26] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
+[06:38:26] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  To remove this warning, log in with "nlogin.admin" permission on the server
+[06:38:26] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  and click the "Setup plugin" button to configure your plugin.
+[06:38:26] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
+[06:40:20] [nLogin - Task Executor #0/ERROR] [nlogin]: Could not connect to the api - internet unavailable or HTTPS port closed (this likely is a hosting error!)
+[06:40:58] [SkinsRestorer - Task Executor #2/WARN] [skinsrestorer]: Failed to get recommended skins: cool-skins.skinsrestorer.net
+[06:42:20] [nLogin - Task Executor #0/ERROR] [nlogin]: Could not download new version (code = 0, content length = 0)
+[06:44:20] [nLogin - Task Executor #0/ERROR] [nlogin]: Could not download new version (code = 0, content length = 0)
+[06:46:20] [nLogin - Task Executor #0/ERROR] [nlogin]: Could not download new version (code = 0, content length = 0)
